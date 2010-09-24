@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/18/trunk/GwtFB/src/com/gwtfb/client
+END
+DocSideBarPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/13/trunk/GwtFB/src/com/gwtfb/client/DocSideBarPanel.java
+END
+DataObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/18/trunk/GwtFB/src/com/gwtfb/client/DataObject.java
+END
+HomeSideBarPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/13/trunk/GwtFB/src/com/gwtfb/client/HomeSideBarPanel.java
+END
+logo.png
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/10/trunk/GwtFB/src/com/gwtfb/client/logo.png
+END
+FrontpageViewController.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/10/trunk/GwtFB/src/com/gwtfb/client/FrontpageViewController.java
+END
+TopMenuPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/13/trunk/GwtFB/src/com/gwtfb/client/TopMenuPanel.java
+END
+TopMenuLinksPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/13/trunk/GwtFB/src/com/gwtfb/client/TopMenuLinksPanel.java
+END
+GwtFB.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/18/trunk/GwtFB/src/com/gwtfb/client/GwtFB.java
+END
+UserInfoViewController.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/13/trunk/GwtFB/src/com/gwtfb/client/UserInfoViewController.java
+END
+BaseModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/GwtFB/src/com/gwtfb/client/BaseModel.java
+END
+Callback.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2/trunk/GwtFB/src/com/gwtfb/client/Callback.java
+END
+JSOModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/GwtFB/src/com/gwtfb/client/JSOModel.java
+END
+WaveView.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/13/trunk/GwtFB/src/com/gwtfb/client/WaveView.java
+END
+AppImageBundle.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/13/trunk/GwtFB/src/com/gwtfb/client/AppImageBundle.java
+END

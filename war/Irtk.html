@@ -1,0 +1,95 @@
+<!doctype html>
+<!-- The DOCTYPE declaration above will set the    -->
+<!-- browser's rendering engine into               -->
+<!-- "Standards Mode". Replacing this declaration  -->
+<!-- with a "Quirks Mode" doctype may lead to some -->
+<!-- differences in layout.                        -->
+
+<html xmlns:fb="http://www.facebook.com/2008/fbml>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <!--                                                               -->
+    <!-- Consider inlining CSS to reduce the number of requested files -->
+    <!--                                                               -->
+    <link type="text/css" rel="stylesheet" href="Irtk.css">
+
+    <!--                                           -->
+    <!-- Any title is fine                         -->
+    <!--                                           -->
+    <title>iRelaxa Goal Match Engine</title>
+
+    <!--                                           -->
+    <!-- This script loads your compiled module.   -->
+    <!-- If you add any GWT meta tags, they must   -->
+    <!-- be added before this line.                -->
+    <!--                                           -->
+    <script type="text/javascript" language="javascript" src="irtk/irtk.nocache.js"></script>
+  </head>
+
+  <!--                                           -->
+  <!-- The body can have arbitrary html, or      -->
+  <!-- you can leave the body empty if you want  -->
+  <!-- to create a completely dynamic UI.        -->
+  <!--                                           -->
+  <body>
+
+    <!-- OPTIONAL: include this if you want history support -->
+    <iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1' style="position:absolute;width:0;height:0;border:0"></iframe>
+
+    <!-- RECOMMENDED if your web app will not function without JavaScript enabled -->
+    <noscript>
+      <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+        Your web browser must have JavaScript enabled
+        in order for this application to display correctly.
+      </div>
+    </noscript>
+    <div id="view" ></div>
+<div id="topView" ></div>
+
+</br>
+</br>
+</br>
+<div id="mainView" position="relative" top="60px" left="140px">
+<table align="center">
+<!--  <tr halign="right"><td halign="right"><img src="images/event.png" /></td></tr> -->
+<tr><td><table><tr><td><font color="#ffffff">irelaxa</font></td><td><font color="#ffffff">irelaxa</font></td><td><font color="#ffffff">irelaxa</font></td><td><div id="event"><font color="red"></font></div></td></tr></table></td></tr>
+    <tr><td><img src="http://www.irelaxa.com/images/logo.png" alt="iRelaxa" /></td></tr>
+    </table>
+    <table align="center">
+    <tr>
+    <td  valign="top"><img src="http://www.irelaxa.com/images/leaf1.jpg" alt="iRelaxa" width="30" height="22.5"/></td>
+    <td valign="top"><h3 valign="top" halign="right"><font color="#008000">Goal Match Engine</font></h1></td>
+    </tr>
+</table>
+
+<div id="goalMatchEngine" ></div>
+    <table align="center">
+      <tr>
+        <td colspan="2" style="font-weight:bold;" align="center"><font color=red>Satisfy your <font color=green>SMART</font> Goals:</font></td>
+      </tr>
+      <tr>
+        <td colspan="2"><font color="#008000">S-pecific</font>, <font color="#006000">M-easurable</font>, <font color="#005000">A-ttainable</font>, <font color="#004000">R-ealistic</font>, <font color="#009000">T-imely</font></td>
+      </tr>
+      <tr>
+      <td id="login"><td id="fblogin"></td><td id="logout"></td>
+      <td><td></td><td id="fblogout"></td>
+      </tr>
+      </table>
+      <table id="flexTable" align="center">
+      </table>
+      <div id="fblogout"></div>
+      <div id="goalList"></div>
+      <div id="chart"></div>
+      <div id="about" align="center"><a href='http://www.iRelaxa.com/About.html'>About</a></div>
+      <div id="copyright" align="center">&copy;2010 iRelaxa</div>
+      </div>
+
+
+     <!-- Facebook integration -->
+
+	        <div id="fb-root"></div>
+	<script src="http://connect.facebook.net/en_US/all.js"></script>
+
+  </body>
+</html>

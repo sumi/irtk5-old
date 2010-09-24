@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+  
+  <servlet>
+    <servlet-name>loginService</servlet-name>
+    <servlet-class>com.irelaxa.irtk.server.LoginServiceImpl</servlet-class>
+  </servlet>
+
+<servlet>
+    <servlet-name>stockService</servlet-name>
+    <servlet-class>com.irelaxa.irtk.server.StockServiceImpl</servlet-class>
+    	<init-param>   
+                             <param-name>PPAPIUsername</param-name>   
+                             <param-value>sumithra0007_api1.yahoo.com</param-value>   
+                     </init-param> 
+                     <init-param>   
+                             <param-name>PPAPIPassword</param-name>   
+                             <param-value>CDY6YB6JR2N2FQ8S</param-value>   
+                     </init-param> 
+                     <init-param>   
+                             <param-name>PPAPISignature</param-name>   
+                             <param-value>AItX2.Mlg962TmcrWcxKBH8lO4a0Ad1MWCOkSd9Nwa-.6-1MbJpSdg3l</param-value>   
+                     </init-param> 
+                     <init-param>   
+                             <param-name>PPAppID</param-name>   
+                             <param-value>APP-80W284485P519543T</param-value>   
+                     </init-param> 
+                     <init-param>   
+                             <param-name>PPAccountEmail</param-name>   
+                             <param-value>sumithra0007@yahoo.com</param-value>   
+          </init-param>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>loginService</servlet-name>
+    <url-pattern>/irtk/login</url-pattern>
+  </servlet-mapping>
+  
+ <servlet-mapping>
+    <servlet-name>stockService</servlet-name>
+    <url-pattern>/irtk/stock</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>Irtk.html</welcome-file>
+  </welcome-file-list>
+
+</web-app>
